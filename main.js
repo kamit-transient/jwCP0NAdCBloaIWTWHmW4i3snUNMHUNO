@@ -19,7 +19,25 @@
            
         }
     });
-
+    $('img').Lazy({
+        // your configuration goes here
+        
+        effect: "fadeIn",
+         effectTime:2000,
+        visibleOnly: true,
+        beforeLoad: function(element) {
+            // called before an elements gets handled
+        },
+        afterLoad: function(element) {
+            // called after an element was successfully handled
+        },
+        onError: function(element) {
+            // called whenever an element could not be handled
+        },
+        onFinishedAll: function() {
+           
+        }
+    });
        $('.post-footer').Lazy({
         // your configuration goes here
         
