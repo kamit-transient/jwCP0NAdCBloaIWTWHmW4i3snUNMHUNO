@@ -19,7 +19,7 @@
            
         }
     });
-    $('img').Lazy({
+    $('.card-img-top').Lazy({
         // your configuration goes here
         
         effect: "fadeIn",
