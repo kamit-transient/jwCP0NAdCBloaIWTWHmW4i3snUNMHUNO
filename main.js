@@ -23,7 +23,7 @@
         // your configuration goes here
         
         effect: "fadeIn",
-         effectTime:2000,
+         effectTime:5000,
         visibleOnly: true,
         beforeLoad: function(element) {
             // called before an elements gets handled
