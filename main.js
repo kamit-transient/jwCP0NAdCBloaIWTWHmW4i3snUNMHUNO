@@ -80,7 +80,7 @@ document.getElementById(pID).innerHTML = ellipsedText;
 }
 
 function makeImageResponsive(pId){
-
+debugger;
 var size=$("img").length;
 var images=$("img");
     for(var i=0;i<size;i++){
