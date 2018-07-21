@@ -61,13 +61,6 @@
     });
 
     });
-                
-
-
-
-
-      
-
 
 
 function createSummaryAndThumb(pID){
@@ -86,10 +79,10 @@ ellipsedText=div.concat("...");
 document.getElementById(pID).innerHTML = ellipsedText;
 }
 
-  function makeImageResponsive(pId){
+function makeImageResponsive(pId){
 
-var size=$("div"+"#"+pId+" img").length;
-var images=$("div"+"#"+pId+" img");
+var size=$("img").length;
+var images=$("img");
     for(var i=0;i<size;i++){
 
       if(images[i].parentElement.hasAttribute("style")){
